@@ -11,7 +11,7 @@ function App() {
         isLoading && <p>Is loading.....</p>
       }
       <div>
-        <h1>All Posts</h1>
+        <h1>All Posts Final</h1>
         <ul>
           {posts && posts.map((post) => (
             <li key={post.id}>{post.title}</li>
